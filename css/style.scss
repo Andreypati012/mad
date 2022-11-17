@@ -359,23 +359,24 @@ body{
 		margin-left: 110px;
 	}
 	.header__icon img{
-		width: 520px;
+		width: 600px;
 	}
 	.header{
 		display: inline-flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 	}
 	.header-attribute__btn button{
-         font-size: 40.5px;
+         font-size: 44.5px;
 	}
 	.header-attribute__shop img{
-		width: 70px;
-		height: 70px;
+		width: 85px;
+		height: 85px;
 	}
 	.header__text{
-		font-size: 27.5px;
+		font-size: 35.5px;
 		position: relative;
 		z-index: 1;
+		line-height: 45px;
 		margin-right: 130px;
 }
 	.header__title{
@@ -392,19 +393,21 @@ body{
 	}
 	.cybersport{
 		margin-right: 385px;
-		font-size: 22px;
+		font-size: 25px;
 	}
 	.header__content-block-right{
 		
 	}
 	.header__btn--dark{
-       font-size: 29.5px;
+       font-size: 35.5px;
+	   padding: 45px 55px;
 	}
 	.header__btn--active{
-	font-size: 29,5px;
+	font-size: 35.5px;
+	padding: 45px 55px;
 	}
 	.header__title{
-		font-size: 80px;
+		font-size: 85px;
 	}
 }
 
