@@ -172,7 +172,7 @@ header {
 
 .header__title {
   font-size: 72px;
-  max-width: 645px;
+  max-width: 845px;
   line-height: 86px;
 }
 
@@ -279,7 +279,7 @@ header {
   }
   .header {
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .header-attribute__btn button {
     font-size: 22px;
@@ -297,72 +297,14 @@ header {
     margin-left: 110px;
   }
   .header__icon img {
-    width: 340px;
+    width: 360px;
   }
   .header {
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .header-attribute__btn button {
-    font-size: 28px;
-  }
-  .header-attribute__shop img {
-    width: 50px;
-    height: 50px;
-  }
-  .header__text {
-    font-size: 21.5px;
-    position: relative;
-    z-index: 1;
-    margin-right: 130px;
-  }
-  .header__title {
-    position: relative;
-    z-index: 1;
-  }
-  .header__btn {
-    position: relative;
-    z-index: 1;
-  }
-  .header__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  .cybersport {
-    margin-right: 410px;
-  }
-  .header__content-block-right {
-    position: absolute;
-    top: 550px;
-    right: -40px;
-    z-index: 0;
-  }
-  .header__btn--dark {
-    font-size: 22px;
-  }
-  .header__btn--active {
-    font-size: 22px;
-  }
-  .header__title {
-    font-size: 60px;
-  }
-}
-@media (max-width: 650px) {
-  .header__icon img {
-    margin-left: 110px;
-  }
-  .header__icon img {
-    width: 380px;
-  }
-  .header {
-    display: inline-flex;
-    justify-content: space-evenly;
-  }
-  .header-attribute__btn button {
-    font-size: 32px;
+    font-size: 35px;
   }
   .header-attribute__shop img {
     width: 55px;
@@ -382,50 +324,36 @@ header {
     position: relative;
     z-index: 1;
   }
-  .header__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
   .cybersport {
     margin-right: 410px;
-    font-size: 18px;
-  }
-  .header__content-block-right {
-    position: absolute;
-    top: 550px;
-    right: -40px;
-    z-index: 0;
   }
   .header__btn--dark {
-    font-size: 24.5px;
+    font-size: 25px;
   }
   .header__btn--active {
-    font-size: 24.5px;
+    font-size: 25px;
   }
   .header__title {
-    font-size: 65px;
+    font-size: 72px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 650px) {
   .header__icon img {
     margin-left: 110px;
   }
   .header__icon img {
-    width: 420px;
+    width: 480px;
   }
   .header {
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .header-attribute__btn button {
-    font-size: 36px;
+    font-size: 42px;
   }
   .header-attribute__shop img {
-    width: 62px;
-    height: 62px;
+    width: 65px;
+    height: 65px;
   }
   .header__text {
     font-size: 23.5px;
@@ -441,30 +369,64 @@ header {
     position: relative;
     z-index: 1;
   }
-  .header__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .cybersport {
+    margin-right: 410px;
+    font-size: 20px;
+  }
+  .header__btn--dark {
+    font-size: 28.5px;
+  }
+  .header__btn--active {
+    font-size: 28.5px;
+  }
+  .header__title {
+    font-size: 75px;
+  }
+}
+@media (max-width: 480px) {
+  .header__icon img {
+    margin-left: 110px;
+  }
+  .header__icon img {
+    width: 520px;
+  }
+  .header {
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+  .header-attribute__btn button {
+    font-size: 40.5px;
+  }
+  .header-attribute__shop img {
+    width: 70px;
+    height: 70px;
+  }
+  .header__text {
+    font-size: 27.5px;
     position: relative;
+    z-index: 1;
+    margin-right: 130px;
+  }
+  .header__title {
+    position: relative;
+    z-index: 1;
+    font-size: 80px;
+  }
+  .header__btn {
+    position: relative;
+    z-index: 1;
   }
   .cybersport {
     margin-right: 385px;
-    font-size: 19px;
-  }
-  .header__content-block-right {
-    position: absolute;
-    top: 550px;
-    right: -40px;
-    z-index: 0;
+    font-size: 22px;
   }
   .header__btn--dark {
-    font-size: 26.5px;
+    font-size: 29.5px;
   }
   .header__btn--active {
-    font-size: 26.5px;
+    font-size: 29, 5px;
   }
   .header__title {
-    font-size: 65px;
+    font-size: 80px;
   }
 }/*# sourceMappingURL=style.css.map */
