@@ -412,26 +412,29 @@ body{
 }
 
 @media(max-width: 380px){
-	.header__icon img{
-		margin-left: 110px;
+	header{
+		height: 1150px;
+		padding-top: 15px;
 	}
 	.header__icon img{
-		width: 550px;
-		margin-right: 200px;
+ 
+	}
+	.header__icon img{
+		width: 600px;
 	}
 	.header{
 		display: inline-flex;
 		justify-content: space-evenly;
 	}
 	.header-attribute__btn button{
-         font-size: 40.5px;
+         font-size: 55.5px;
 	}
 	.header-attribute__shop img{
-		width: 85px;
-		height: 85px;
+		width: 100px;
+		height: 100px;
 	}
 	.header__text{
-		font-size: 30.5px;
+		font-size: 33.5px;
 		position: relative;
 		z-index: 1;
 		margin-right: 130px;
@@ -446,20 +449,22 @@ body{
 		z-index: 1;
 	}
 	.header__content{
-		
+		position: relative;
 	}
 	.cybersport{
 		margin-right: 385px;
-		font-size: 22px;
+		font-size: 25px;
 	}
 	.header__content-block-right{
-		
+		position: absolute;
+		top: 570px;
+		right: 0px;
 	}
 	.header__btn--dark{
-       font-size: 38.5px;
+       font-size: 48.5px;
 	}
 	.header__btn--active{
-	font-size: 38.5px;
+	font-size: 48.5px;
 	}
 	.header__title{
 		font-size: 85px;
